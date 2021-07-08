@@ -1,0 +1,27 @@
+# Intellij Idea
+.idea
+*.iml
+
+# Eclipse
+.project
+
+# Nodes
+node/
+.npmrc
+package.json
+pnpm-lock.yaml
+pnpmfile.js
+node_modules/
+
+# Maven
+pom.xml.versionsBackup
+target/
+
+# Vaadin
+frontend/generated/
+webpack.generated.js
+error-screenshots/
+tsconfig.json
+types.d.ts
+
+
