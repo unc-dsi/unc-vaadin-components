@@ -30,11 +30,12 @@ public class UncInitialBar extends Component {
         }
     }
 
-    private static final PropertyDescriptor<String, String> selectionProperty = PropertyDescriptors.propertyWithDefault("selection", "*");
-    private static final PropertyDescriptor<String, String> labelProperty = PropertyDescriptors.propertyWithDefault("label", "*");
+    private static final PropertyDescriptor<String, String> selectionProperty = PropertyDescriptors.attributeWithDefault("selection", "*");
+    private static final PropertyDescriptor<String, String> labelProperty = PropertyDescriptors.attributeWithDefault("label", "*");
 
     public UncInitialBar(String label) {
         this.setLabel(label);
+        this.addSelectListener(e -> this.setSelection(e.getNewSelection()));
     }
 
     public String getSelection() {
