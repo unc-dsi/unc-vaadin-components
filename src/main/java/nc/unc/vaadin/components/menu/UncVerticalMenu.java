@@ -14,7 +14,7 @@ import java.util.List;
 @JsModule("@unc-dsi/unc-vertical-menu/unc-vertical-menu.js")
 @NpmPackage(value = "@unc-dsi/unc-vertical-menu", version = UncVerticalMenu.NPM_VERSION)
 public class UncVerticalMenu extends Component {
-    public static final String NPM_VERSION = "0.0.9";
+    public static final String NPM_VERSION = "0.0.11";
 
     @Getter
     @DomEvent("select")

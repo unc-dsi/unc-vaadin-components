@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Tag("unc-initial-bar")
 @JsModule("@unc-dsi/unc-initial-bar/unc-initial-bar.js")
-@NpmPackage(value = "@unc-dsi/unc-initial-bar", version = "0.0.8")
+@NpmPackage(value = "@unc-dsi/unc-initial-bar", version = "0.0.9")
 public class UncInitialBar extends Component {
 
     @Getter

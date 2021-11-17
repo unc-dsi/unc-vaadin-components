@@ -3,7 +3,7 @@
 
     <groupId>org.vaadin.addons.unc</groupId>
     <artifactId>unc-vaadin-components</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.5</version>
     <description>Integration of unc-web-components</description>
     <organization>
         <name>University of New-Caledonia</name>
@@ -16,13 +16,13 @@
         <maven.compiler.source>11</maven.compiler.source>
         <maven.compiler.target>11</maven.compiler.target>
         <maven-jar-plugin.version>3.2.0</maven-jar-plugin.version>
-        <maven-javadoc-plugin.version>3.3.0</maven-javadoc-plugin.version>
+        <maven-javadoc-plugin.version>3.3.1</maven-javadoc-plugin.version>
         <maven-source-plugin.version>3.2.1</maven-source-plugin.version>
-        <node.version>v14.17.3</node.version>
+        <node.version>v16.13.0</node.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-        <vaadin.version>20.0.4</vaadin.version>
-        <lombok.version>1.18.20</lombok.version>
+        <vaadin.version>21.0.3</vaadin.version>
+        <lombok.version>1.18.22</lombok.version>
     </properties>
 
     <dependencyManagement>
