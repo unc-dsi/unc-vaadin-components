@@ -16,7 +16,7 @@ import java.util.List;
 @NpmPackage(value = "@unc-dsi/unc-horizontal-stepper", version = UncHorizontalStepper.NPM_VERSION)
 public class UncHorizontalStepper extends Component implements HasSize {
 
-    public static final String NPM_VERSION = "0.0.3";
+    public static final String NPM_VERSION = "0.0.4";
 
     @Getter
     @DomEvent("select")
