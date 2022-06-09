@@ -26,7 +26,7 @@ public class UncHorizontalStepper extends Component implements HasSize {
         public SelectEvent(
                 UncHorizontalStepper source,
                 boolean fromClient,
-                @EventData("event.detail.index") Integer currentStep) {
+                @EventData("event.detail.currentStep") Integer currentStep) {
             super(source, fromClient);
             this.currentStep = currentStep;
         }
