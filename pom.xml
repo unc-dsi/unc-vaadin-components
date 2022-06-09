@@ -3,7 +3,7 @@
 
     <groupId>org.vaadin.addons.unc</groupId>
     <artifactId>unc-vaadin-components</artifactId>
-    <version>0.0.6</version>
+    <version>0.0.7</version>
     <description>Integration of unc-web-components</description>
     <organization>
         <name>University of New-Caledonia</name>
